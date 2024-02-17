@@ -14,3 +14,4 @@ C:\Users\Giovanni\Desktop\Repositories\IggyEditorGUI\IggyEditorGUI\obj\Debug\net
 C:\Users\Giovanni\Desktop\Repositories\IggyEditorGUI\IggyEditorGUI\obj\Debug\net8.0-windows\IggyEditorGUI.pdb
 C:\Users\Giovanni\Desktop\Repositories\IggyEditorGUI\IggyEditorGUI\obj\Debug\net8.0-windows\IggyEditorGUI.genruntimeconfig.cache
 C:\Users\Giovanni\Desktop\Repositories\IggyEditorGUI\IggyEditorGUI\obj\Debug\net8.0-windows\ref\IggyEditorGUI.dll
+C:\Users\Giovanni\Desktop\Repositories\IggyEditorGUI\IggyEditorGUI\obj\Debug\net8.0-windows\IggyEditorGUI.sourcelink.json

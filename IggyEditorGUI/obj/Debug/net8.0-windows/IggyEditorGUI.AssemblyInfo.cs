@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IggyEditorGUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a77b0331bb4bb03438835809c3d0ad5c657a2594")]
 [assembly: System.Reflection.AssemblyProductAttribute("IggyEditorGUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IggyEditorGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

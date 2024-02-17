@@ -32,12 +32,12 @@
             filleToolStripMenuItem = new ToolStripMenuItem();
             openToolStripMenuItem = new ToolStripMenuItem();
             saveToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator1 = new ToolStripSeparator();
+            extractSubFilesToolStripMenuItem = new ToolStripMenuItem();
             richTextBox1 = new RichTextBox();
             label1 = new Label();
             label2 = new Label();
             richTextBox2 = new RichTextBox();
-            extractSubFilesToolStripMenuItem = new ToolStripMenuItem();
-            toolStripSeparator1 = new ToolStripSeparator();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -60,21 +60,34 @@
             // openToolStripMenuItem
             // 
             openToolStripMenuItem.Name = "openToolStripMenuItem";
-            openToolStripMenuItem.Size = new Size(180, 22);
+            openToolStripMenuItem.Size = new Size(159, 22);
             openToolStripMenuItem.Text = "Open";
             openToolStripMenuItem.Click += openToolStripMenuItem_Click;
             // 
             // saveToolStripMenuItem
             // 
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            saveToolStripMenuItem.Size = new Size(180, 22);
+            saveToolStripMenuItem.Size = new Size(159, 22);
             saveToolStripMenuItem.Text = "Save";
             saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
+            // 
+            // toolStripSeparator1
+            // 
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new Size(156, 6);
+            // 
+            // extractSubFilesToolStripMenuItem
+            // 
+            extractSubFilesToolStripMenuItem.Name = "extractSubFilesToolStripMenuItem";
+            extractSubFilesToolStripMenuItem.Size = new Size(159, 22);
+            extractSubFilesToolStripMenuItem.Text = "Extract Sub Files";
+            extractSubFilesToolStripMenuItem.Click += extractSubFilesToolStripMenuItem_Click;
             // 
             // richTextBox1
             // 
             richTextBox1.Location = new Point(12, 42);
             richTextBox1.Name = "richTextBox1";
+            richTextBox1.ReadOnly = true;
             richTextBox1.Size = new Size(237, 239);
             richTextBox1.TabIndex = 1;
             richTextBox1.Text = "";
@@ -101,21 +114,10 @@
             // 
             richTextBox2.Location = new Point(649, 42);
             richTextBox2.Name = "richTextBox2";
+            richTextBox2.ReadOnly = true;
             richTextBox2.Size = new Size(237, 239);
             richTextBox2.TabIndex = 3;
             richTextBox2.Text = "";
-            // 
-            // extractSubFilesToolStripMenuItem
-            // 
-            extractSubFilesToolStripMenuItem.Name = "extractSubFilesToolStripMenuItem";
-            extractSubFilesToolStripMenuItem.Size = new Size(180, 22);
-            extractSubFilesToolStripMenuItem.Text = "Extract Sub Files";
-            extractSubFilesToolStripMenuItem.Click += extractSubFilesToolStripMenuItem_Click;
-            // 
-            // toolStripSeparator1
-            // 
-            toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(177, 6);
             // 
             // Form1
             // 

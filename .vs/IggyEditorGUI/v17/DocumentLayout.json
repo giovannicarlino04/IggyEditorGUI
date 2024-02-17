@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Giovanni\\Desktop\\Repositories\\IggyEditorGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{820CE35A-B790-450A-BED2-ADE05A14F807}|IggyEditorGUI\\IggyEditorGUI.csproj|c:\\users\\giovanni\\desktop\\repositories\\iggyeditorgui\\iggyeditorgui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{820CE35A-B790-450A-BED2-ADE05A14F807}|IggyEditorGUI\\IggyEditorGUI.csproj|solutionrelative:iggyeditorgui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{820CE35A-B790-450A-BED2-ADE05A14F807}|IggyEditorGUI\\IggyEditorGUI.csproj|c:\\users\\giovanni\\desktop\\repositories\\iggyeditorgui\\iggyeditorgui\\iggy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{820CE35A-B790-450A-BED2-ADE05A14F807}|IggyEditorGUI\\IggyEditorGUI.csproj|solutionrelative:iggyeditorgui\\iggy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{820CE35A-B790-450A-BED2-ADE05A14F807}|IggyEditorGUI\\IggyEditorGUI.csproj|c:\\users\\giovanni\\desktop\\repositories\\iggyeditorgui\\iggyeditorgui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{820CE35A-B790-450A-BED2-ADE05A14F807}|IggyEditorGUI\\IggyEditorGUI.csproj|solutionrelative:iggyeditorgui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{820CE35A-B790-450A-BED2-ADE05A14F807}|IggyEditorGUI\\IggyEditorGUI.csproj|c:\\users\\giovanni\\desktop\\repositories\\iggyeditorgui\\iggyeditorgui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "IGGY.cs",
               "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\IggyEditorGUI\\IggyEditorGUI\\IGGY.cs",
               "RelativeDocumentMoniker": "IggyEditorGUI\\IGGY.cs",
               "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\IggyEditorGUI\\IggyEditorGUI\\IGGY.cs",
               "RelativeToolTip": "IggyEditorGUI\\IGGY.cs",
-              "ViewState": "AQIAAAsBAAAAAAAAAAAAABYBAAAAAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwBkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-17T09:04:05.26Z",
               "EditorCaption": ""
@@ -51,18 +51,17 @@
               "RelativeToolTip": "IggyEditorGUI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-17T09:04:05.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-17T09:04:05.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Giovanni\\Desktop\\Repositories\\IggyEditorGUI\\IggyEditorGUI\\Form1.cs",
               "RelativeDocumentMoniker": "IggyEditorGUI\\Form1.cs",
               "ToolTip": "C:\\Users\\Giovanni\\Desktop\\Repositories\\IggyEditorGUI\\IggyEditorGUI\\Form1.cs",
               "RelativeToolTip": "IggyEditorGUI\\Form1.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAIwB4AAABYAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAqwJMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-17T09:03:46.48Z",
               "EditorCaption": ""
