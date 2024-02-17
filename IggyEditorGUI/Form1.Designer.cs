@@ -34,10 +34,16 @@
             saveToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator1 = new ToolStripSeparator();
             extractSubFilesToolStripMenuItem = new ToolStripMenuItem();
-            richTextBox1 = new RichTextBox();
+            iggyInfo = new RichTextBox();
             label1 = new Label();
             label2 = new Label();
-            richTextBox2 = new RichTextBox();
+            consoleLog = new RichTextBox();
+            label3 = new Label();
+            tbHeight = new TextBox();
+            tbWidth = new TextBox();
+            label4 = new Label();
+            label5 = new Label();
+            saveiggyToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -52,7 +58,7 @@
             // 
             // filleToolStripMenuItem
             // 
-            filleToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { openToolStripMenuItem, saveToolStripMenuItem, toolStripSeparator1, extractSubFilesToolStripMenuItem });
+            filleToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { openToolStripMenuItem, saveiggyToolStripMenuItem, saveToolStripMenuItem, toolStripSeparator1, extractSubFilesToolStripMenuItem });
             filleToolStripMenuItem.Name = "filleToolStripMenuItem";
             filleToolStripMenuItem.Size = new Size(37, 20);
             filleToolStripMenuItem.Text = "File";
@@ -60,37 +66,37 @@
             // openToolStripMenuItem
             // 
             openToolStripMenuItem.Name = "openToolStripMenuItem";
-            openToolStripMenuItem.Size = new Size(159, 22);
+            openToolStripMenuItem.Size = new Size(201, 22);
             openToolStripMenuItem.Text = "Open";
             openToolStripMenuItem.Click += openToolStripMenuItem_Click;
             // 
             // saveToolStripMenuItem
             // 
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            saveToolStripMenuItem.Size = new Size(159, 22);
-            saveToolStripMenuItem.Text = "Save";
+            saveToolStripMenuItem.Size = new Size(201, 22);
+            saveToolStripMenuItem.Text = "Save (Separate Sections)";
             saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(156, 6);
+            toolStripSeparator1.Size = new Size(198, 6);
             // 
             // extractSubFilesToolStripMenuItem
             // 
             extractSubFilesToolStripMenuItem.Name = "extractSubFilesToolStripMenuItem";
-            extractSubFilesToolStripMenuItem.Size = new Size(159, 22);
+            extractSubFilesToolStripMenuItem.Size = new Size(201, 22);
             extractSubFilesToolStripMenuItem.Text = "Extract Sub Files";
             extractSubFilesToolStripMenuItem.Click += extractSubFilesToolStripMenuItem_Click;
             // 
-            // richTextBox1
+            // iggyInfo
             // 
-            richTextBox1.Location = new Point(12, 42);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.ReadOnly = true;
-            richTextBox1.Size = new Size(237, 239);
-            richTextBox1.TabIndex = 1;
-            richTextBox1.Text = "";
+            iggyInfo.Location = new Point(12, 42);
+            iggyInfo.Name = "iggyInfo";
+            iggyInfo.ReadOnly = true;
+            iggyInfo.Size = new Size(237, 207);
+            iggyInfo.TabIndex = 1;
+            iggyInfo.Text = "";
             // 
             // label1
             // 
@@ -110,24 +116,76 @@
             label2.TabIndex = 4;
             label2.Text = "Console Log";
             // 
-            // richTextBox2
+            // consoleLog
             // 
-            richTextBox2.Location = new Point(649, 42);
-            richTextBox2.Name = "richTextBox2";
-            richTextBox2.ReadOnly = true;
-            richTextBox2.Size = new Size(237, 239);
-            richTextBox2.TabIndex = 3;
-            richTextBox2.Text = "";
+            consoleLog.Location = new Point(649, 42);
+            consoleLog.Name = "consoleLog";
+            consoleLog.ReadOnly = true;
+            consoleLog.Size = new Size(237, 207);
+            consoleLog.TabIndex = 3;
+            consoleLog.Text = "";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(354, 282);
+            label3.Name = "label3";
+            label3.Size = new Size(123, 15);
+            label3.TabIndex = 5;
+            label3.Text = "EXPERIMENTAL STUFF";
+            // 
+            // tbHeight
+            // 
+            tbHeight.Location = new Point(12, 332);
+            tbHeight.Name = "tbHeight";
+            tbHeight.Size = new Size(100, 23);
+            tbHeight.TabIndex = 6;
+            // 
+            // tbWidth
+            // 
+            tbWidth.Location = new Point(118, 332);
+            tbWidth.Name = "tbWidth";
+            tbWidth.Size = new Size(100, 23);
+            tbWidth.TabIndex = 6;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(12, 314);
+            label4.Name = "label4";
+            label4.Size = new Size(43, 15);
+            label4.TabIndex = 7;
+            label4.Text = "Height";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(118, 314);
+            label5.Name = "label5";
+            label5.Size = new Size(39, 15);
+            label5.TabIndex = 7;
+            label5.Text = "Width";
+            // 
+            // saveiggyToolStripMenuItem
+            // 
+            saveiggyToolStripMenuItem.Name = "saveiggyToolStripMenuItem";
+            saveiggyToolStripMenuItem.Size = new Size(201, 22);
+            saveiggyToolStripMenuItem.Text = "Save (.iggy)";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(898, 330);
+            ClientSize = new Size(898, 479);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(tbWidth);
+            Controls.Add(tbHeight);
+            Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(richTextBox2);
+            Controls.Add(consoleLog);
             Controls.Add(label1);
-            Controls.Add(richTextBox1);
+            Controls.Add(iggyInfo);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
@@ -144,11 +202,17 @@
         private ToolStripMenuItem filleToolStripMenuItem;
         private ToolStripMenuItem openToolStripMenuItem;
         private ToolStripMenuItem saveToolStripMenuItem;
-        private RichTextBox richTextBox1;
+        private RichTextBox iggyInfo;
         private Label label1;
         private Label label2;
-        private RichTextBox richTextBox2;
+        private RichTextBox consoleLog;
         private ToolStripSeparator toolStripSeparator1;
         private ToolStripMenuItem extractSubFilesToolStripMenuItem;
+        private Label label3;
+        private TextBox tbHeight;
+        private TextBox tbWidth;
+        private Label label4;
+        private Label label5;
+        private ToolStripMenuItem saveiggyToolStripMenuItem;
     }
 }
